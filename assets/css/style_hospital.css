@@ -1,4 +1,57 @@
 /*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""CSS RESET"""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+    /* http://meyerweb.com/eric/tools/css/reset/
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    /*article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    	 display: block; */
+    }
+    body {
+    	line-height: 1;
+    }
+
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+    	quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""GENERAL"""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
 
@@ -10,11 +63,19 @@ font-family: 'Cutive Mono', monospace;
 margin: 30px 0px;
 }
 
+h3, h4{
+  padding-bottom: 10px;
+}
+
+h4{
+  font-weight: bold;
+}
+
 h2{
   color: black;
 }
 
-h1, h2, .title{
+h1, h2, .title, h3{
   font-family: 'Major Mono Display', monospace;
 }
 
@@ -23,7 +84,7 @@ h1, h2, .title{
 }
 
 header .navbar-collapse, .copyrights{
-  margin-left: 320px;
+  margin-left: 300px;
 }
 
 nav a{
@@ -42,14 +103,19 @@ nav a{
  background-color: #4C191B!important ;
 }
 
-med_choices a{
+.med_choices a{
   color: white
 }
 
 .btn{
   background-color: white;
   color: black;
-  margin-top: 20px;
+  border-color: yellow;
+  margin: 7px;
+}
+
+.account a{
+  text-align: center!important;
 }
 
 .med_choices{
@@ -72,6 +138,44 @@ med_choices a{
   justify-content: space-around;
 }
 
+input[type=text]{
+  margin: 0px 30px;
+  width: 350px!important;
+}
+
+.search{
+  padding-top: 20px;
+}
+
+.subtitle{
+  text-align: center!important;
+  padding: 10px 0px;
+}
+
+
+/********
+   BENEFICES
+         *********/
+
+.benefits img{
+  width: 55px;
+  margin: auto;
+}
+
+
+/********
+   PROS DE SANTE
+         *********/
+
+.container-fluid, .benefits{
+  margin-top: 50px;
+  border-top: 1.5px yellow dotted;
+}
+
+
+
+
+
 /********
    TEAM
          *********/
@@ -79,7 +183,8 @@ med_choices a{
 figure img{
   width: 150px;
   height: 150px;
-  border-radius:50%
+  border-radius:50%;
+  padding-bottom: 5px;
 }
 
 
