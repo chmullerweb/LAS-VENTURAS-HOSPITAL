@@ -54,7 +54,7 @@
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <form class="form-inline my-2 my-lg-0 search">
-          <input class="form-control mr-sm-2" type="text" placeholder="Tape le nom de ton médecin">
+          <input class="form-control mr-sm-2 top_type" type="text" placeholder="Tape le nom de ton médecin">
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
@@ -253,7 +253,49 @@
   </div>
 </section>
 
+<!-------
+  CONTACT
+        ------!>
+<section class="contact">
+<section class="container">
+  <div>
+  <h2 class="section-title mb-2 h1 subtitle">Formulaire de Contact</h2>
+  <p class="text-center text-muted h5">Pour toutes questions sur notre service, veuillez nous contacter via ce formulaire.</p>
+  </div>
 
+  <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputNom">Nom</label>
+      <input type="text" class="form-control" id="inputNom">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPrenom">Prénom</label>
+      <input type="text" class="form-control" id="inputPrenom">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail" placeholder="contact@lasventuras.com">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputTel">Téléphone</label>
+      <input type="tel" class="form-control" id="inputTel">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputAddress">Votre Question</label>
+    <textarea class="form-control" name="question_area" rows="6" cols="60"></textarea>
+  </div>
+
+  <div style="text-align:center;">
+  <button type="submit" class="btn btn-primary send_button">Envoyer</button>
+  </div>
+</form>
+</section>
+</section>
 
 
 
@@ -296,6 +338,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item copyrights">
             <span class="nav-link" href="#">© 2020 Copyrights </span>
