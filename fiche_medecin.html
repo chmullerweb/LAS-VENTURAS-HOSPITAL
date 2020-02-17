@@ -7,39 +7,48 @@
     <!--CSS--!>
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="assets/css/style_hospital.css">
+
+
+  <!--FONT--!>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
   </head>
 
 
   <body>
 
-<header>
+  <!-------
+    NAV MENU
+          ------!>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex">
-    <a class="navbar-brand" href="index.html">LAS VENTURAS HOSPITAL</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <header>
 
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nos professionnels</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Prendre Rendez-Vous</a>
-        </li>
-      </ul>
-    </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex">
+        <a class="navbar-brand title" href="index.html">LAS VENTURAS HOSPITAL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="account">
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Mon Compte</a>
-      </p>
-    </div>
-  </nav>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nos professionnels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prendre RDV</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="account">
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Mon Compte</a>
+          </p>
+        </div>
+      </nav>
+  <body>
 
 
 </header>
@@ -47,54 +56,27 @@
 <!-------
   TOP FICHE MEDECIN
         ------!>
+<section class="doctor top">
+<section class="doctor_card">
 
-  <div class="col-lg-6 col-sm-6">
-      <div class="card hovercard">
-          <div class="card-background">
-              <img class="card-bkimg" alt="" src="http://lorempixel.com/100/100/people/9/">
-          </div>
-          <div class="useravatar">
-              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-          </div>
-          <div class="card-info"> <span class="card-title">Jean Nemar</span>
-
-          </div>
-      </div>
-      <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
-          <div class="btn-group" role="group">
-              <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                  <div class="hidden-xs"><a href="#Présentation">Présentation</a></div>
-              </button>
-          </div>
-          <div class="btn-group" role="group">
-              <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-                  <div class="hidden-xs">Adresse</div>
-              </button>
-          </div>
-          <div class="btn-group" role="group">
-              <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  <div class="hidden-xs">Tarifs</div>
-              </button>
-          </div>
-      </div>
-
-          <div class="well">
-        <div class="tab-content">
-          <div class="tab-pane fade in active" id="tab1">
-            <h2>Présentation</h2>
-          </div>
-          <div class="tab-pane fade in" id="tab2">
-            <h3>This is tab 2</h3>
-          </div>
-          <div class="tab-pane fade in" id="tab3">
-            <h3>This is tab 3</h3>
-          </div>
-        </div>
-      </div>
-
-      </div>
-
-
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title">Mirtille Prune</h3>
+      <p class="card-text">Consectetur adipisicing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Présentation</li>
+      <li class="list-group-item">Adresse</li>
+      <li class="list-group-item">Tarifs</li>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Téléphone</a>
+      <a href="#" class="card-link">Email</a>
+    </div>
+  </div>
+</section>
+</section>
 
   </body>
 </html>

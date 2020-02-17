@@ -55,7 +55,7 @@
 """"""""""""""""""""""""""""""GENERAL"""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
 
-p, li, span, label{
+p, li, span, label, .doctor_card a {
 font-family: 'Cutive Mono', monospace;
 }
 
@@ -212,15 +212,22 @@ padding: 0 0 20px 0;
   width: 100%;
 }
 
-
-
 /********
    FICHE MEDECIN
          *********/
- .card {
+.doctor_card {
+  display: flex;
+  margin-left: 40px;
+}
+.doctor.top{
+  height: 100px;
+}
+
+
+.card {
     margin-top: 20px;
     padding: 30px;
-    background-color: rgba(214, 224, 226, 0.2);
+    background-color: rgba(214, 224, 226, 0.2)!important;
     -webkit-border-top-left-radius:5px;
     -moz-border-top-left-radius:5px;
     border-top-left-radius:5px;
@@ -297,8 +304,4 @@ padding: 0 0 20px 0;
 }
 .btn-pref .btn {
     -webkit-border-radius:0 !important;
-}
-
-.well h2{
-  color: blue;
 }
