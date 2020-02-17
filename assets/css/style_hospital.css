@@ -1,5 +1,21 @@
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""GENERAL"""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+p, li, span{
+font-family: 'Cutive Mono', monospace;
+}
+
 .margin_base{
 margin: 30px 0px;
+}
+
+h2{
+  color: black;
+}
+
+h1, h2, .title{
+  font-family: 'Major Mono Display', monospace;
 }
 
 .flex{
@@ -7,14 +23,19 @@ margin: 30px 0px;
 }
 
 header .navbar-collapse, .copyrights{
-  margin-left: 420px;
+  margin-left: 320px;
 }
 
-
+nav a{
+  padding-right: 15px!important;
+}
 
 .navbar{
   padding: 0px 8px;
+}
 
+.top{
+  background-image: url("../images/medication.jpg")!important;
 }
 
 .bg-primary {
@@ -42,8 +63,111 @@ med_choices a{
   padding: 20px;
 }
 
+.med_choices a{
+  color: white;
+ }
+
 .benefits{
   display: flex;
   justify-content: space-around;
+}
 
+/********
+   TEAM
+         *********/
+
+figure img{
+  width: 150px;
+  height: 150px;
+  border-radius:50%
+}
+
+
+/********
+   FICHE MEDECIN
+         *********/
+ .card {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(214, 224, 226, 0.2);
+    -webkit-border-top-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card.hovercard .card-background {
+    height: 130px;
+}
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .useravatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .card-info .card-title {
+    padding:0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+
+.well h2{
+  color: blue;
 }
