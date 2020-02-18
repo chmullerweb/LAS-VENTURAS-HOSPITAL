@@ -223,12 +223,34 @@ padding: 0 0 20px 0;
   height: 100px;
 }
 
+.card_text{
+  width: 200px;
+}
+
+.card-body{
+  width: 800px;
+}
+
 .card.presentation{
-  width: 900px;
-  height: 200px;
-  display: flex;
+  width: 890px;
   margin: 100px 20px 20px 20px;
 }
+
+.onglet p{
+  width: 803px;
+}
+
+.card.address, .card.price{
+  width: 890px;
+  margin: 20px;
+}
+
+.onglet{
+display: flex;
+flex-direction: column;
+}
+
+
 
 
 /*********
@@ -315,4 +337,8 @@ padding: 0 0 20px 0;
 }
 .btn-pref .btn {
     -webkit-border-radius:0 !important;
+}
+
+.list-group-item{
+  width: 225px;
 }

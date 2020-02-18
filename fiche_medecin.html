@@ -1,115 +1,170 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Fiche Médecin</title>
+<head>
+  <meta charset="utf-8">
+  <title>Fiche Médecin</title>
 
-    <!--CSS--!>
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/css/style_hospital.css">
-
-
-  <!--FONT--!>
-    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
-  </head>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style_hospital.css">
 
 
-  <body>
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
+</head>
 
-  <!-------
-    NAV MENU
-          ------!>
+
+<body>
+
+
+  <!-- NAV MENU -->
+
 
   <header>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex">
-        <a class="navbar-brand title" href="index.html">LAS VENTURAS HOSPITAL</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex">
+      <a class="navbar-brand title" href="index.html">LAS VENTURAS HOSPITAL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor01">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nos professionnels</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Prendre RDV</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="account">
-          <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Mon Compte</a>
-          </p>
-        </div>
-      </nav>
-  <body>
-
-
-</header>
-
-<!-------
-  TOP FICHE MEDECIN
-        ------!>
-<section class="doctor top">
-<section class="doctor_card">
-
-  <div class="card" style="width: 18rem;">
-    <img src="assets/images/marinne_prune_mini.jpg" class="card-img-top" alt="Docteur Marinne Prune Gynécologue">
-    <div class="card-body">
-      <h3 class="card-title">Marinne Prune</h3>
-      <div class="card-text">
-        <p style="font-weight: bold;">Gynécologue</p>
-        <p style="font-size: 0.9em;">Hopital Saint-Antoine</p>
-        <p style="font-size: 0.9em;">Paris 75011</p>
-        <p style="font-size: 0.9em;">Diplômée 2016</p>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nos professionnels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prendre RDV</a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Présentation</li>
-      <li class="list-group-item">Adresse</li>
-      <li class="list-group-item">Tarifs</li>
-    </ul>
-    <div class="card-body">
-      <a href="#" class="card-link">Téléphone</a>
-      <a href="#" class="card-link">Email</a>
-    </div>
-  </div>
 
-  <div class="card presentation" >
-    <div class="card-body presentation">
-      <h3 class="card-title">Présentation du professionnel de santé</h3>
-      <div class="card-text">
-        <p style="font-weight: bold;">Gynécologue</p>
-        <p style="font-size: 0.9em;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="account">
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Mon Compte</a>
+        </p>
       </div>
-    </div>
+    </nav>
 
-    <div class="card presentation" >
-      <div class="card-body presentation">
-        <h3 class="card-title">Présentation du professionnel de santé</h3>
-        <div class="card-text">
-          <p style="font-weight: bold;">Gynécologue</p>
-          <p style="font-size: 0.9em;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </header>
+
+
+
+
+  <!-- TOP FICHE MEDECIN -->
+
+  <section class="doctor top">
+    <section class="doctor_card">
+
+      <div class="card" id="card_main" style="width: 18rem;">
+        <img src="assets/images/marinne_prune_mini.jpg" class="card-img-top" alt="Docteur Marinne Prune Gynécologue">
+        <div class="card-body">
+          <h3 class="card-title">Marinne Prune</h3>
+          <div class="card-text">
+            <p style="font-weight: bold;">Gynécologue</p>
+            <p style="font-size: 0.9em;">Hopital Saint-Antoine</p>
+            <p style="font-size: 0.9em;">Paris 75011</p>
+            <p style="font-size: 0.9em;">Diplômée 2016</p>
+          </div>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Bilan médical</li>
+          <li class="list-group-item">Contraception</li>
+          <li class="list-group-item">Suivi de grossesses</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Téléphone</a>
+          <a href="#" class="card-link">Email</a>
         </div>
       </div>
 
-  <div class="card adress" >
-    <div class="card-body presentation">
-      <h3 class="card-title">Carte et informations d'accès</h3>
-      <div class="card-text">
-        <p style="font-weight: bold;">Hopital Saint-Antoine</p>
-        <p style="font-size: 0.9em;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
+      <section class="onglet">
+        <div class"row">
+          <div class="card presentation" >
+            <div class="card-body presentation">
+              <h3 class="card-title">Présentation du professionnel de santé</h3>
+              <div class="card-text">
+                <p style="font-size: 0.9em;">Le docteur Marinne Prune vous accueille au sein de l'Hopital Saint-Antoine Paris 11.<br/>
+                  Le docteur assure le suivi complet des grossesses et pratique notamment des échographies obstétricales (directement au cabinet).
+                  Elle prend en charge les consultations de gynécologie médicale classiques (contraception, infectiologie, ménopause, colposcopie, etc.)<br/>
+                  Le docteur met un point d'honneur à recevoir chaque patiente pendant au moins 30 minutes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</section>
-</section>
+          <div class"row">
+            <div class="card address" >
+              <div class="card-body address">
+                <h3 class="card-title">Carte et informations d'accès</h3>
+                <div class="card-text">
+                  <p style="font-weight: bold;">Cabinet Médical 3C Saint-Antoine</p>
+                  <p style="font-size: 0.9em;">x Faubourg Saint-Antoine, 75011 PARIS</p><br/>
+                  <p style="font-weight: bold;">Moyens de transport</p>
+                  <p style="font-size: 0.9em;">Métro - ... (ligne 8)</p>
+                  <p style="font-size: 0.9em;">Métro - Reuilly-Diderot (ligne 1)</p>
+                  <p style="font-size: 0.9em;">Bus - Faubourg Saint-Antoine (71)</p><br/>
+                  <p style="font-weight: bold;">Parking public</p>
+                  <p style="font-size: 0.9em;">...</p>
+                  <p style="font-weight: bold;">Informatiques pratiques</p>
+                  <p style="font-size: 0.9em;">Rez-de-chaussée</p>
+                  <p style="font-size: 0.9em;">Accès handicapé</p>
+                  <p style="font-size: 0.9em;">Parking payant</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  </body>
-</html>
+
+
+          <div class"row">
+            <div class="card price" >
+              <div class="card-body price">
+                <h3 class="card-title">Tarifs et Remboursement</h3>
+                <div class="card-text">
+                  <p style="font-weight: bold;">Hopital Saint-Antoine</p>
+                  <p style="font-size: 0.9em;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </section>
+
+
+      <footer>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a class="navbar-brand title" href="index.html">LAS VENTURAS HOSPITAL</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous Rejoindre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">A Propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item copyrights">
+                <span class="nav-link" href="#">© 2020 Copyrights </span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </footer>
+
+    </body>
+    </html>
