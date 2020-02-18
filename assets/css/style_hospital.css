@@ -338,6 +338,16 @@ flex-direction: column;
    font-weight: bold;
  }
 
+ .btn_doctor.infos{
+   font-size: 1.2em;
+   background-color: #B3DEC1;
+   border-color: #E5FCF5;
+   font-weight: bold;
+   text-align: center;
+   width: 836px;
+   margin: 0 0 20px 20px;
+ }
+
  /*********
   MAPS
   ***************/
