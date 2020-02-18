@@ -228,21 +228,27 @@ padding: 0 0 20px 0;
   height: 100px;
 }
 
-.card_text{
-  width: 200px;
+.card_text p{
+  width: 100px;
+}
+
+.card-body.card_benefits{
+  width: 245px;
 }
 
 .card-body{
-  width: 800px;
+  width: 600px;
 }
+
 
 .card.presentation{
-  width: 600px;
-  margin: 100px 20px 20px 20px;
+  width: 650px;
+  margin: 30px 20px 10px 20px;
 }
 
-.onglet p{
+.onglet p, .card.address p, .card.price p{
   width: 530px;
+  font-size: 0.8em;
 }
 
 .card.address, .card.price{
@@ -312,6 +318,16 @@ flex-direction: column;
    box-shadow: 0 0 4px 0 black;
  }
 
+ /*********
+  BUTTON CARD
+  ***************/
+
+ .btn_doctor{
+   font-size: 0.8em;
+   background-color: #B3DEC1;
+   border-color: #E5FCF5;
+   font-weight: bold;
+ }
 
 /*********
  TEMPLATE CARD
