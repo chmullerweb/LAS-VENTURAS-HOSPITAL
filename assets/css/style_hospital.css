@@ -99,6 +99,11 @@ nav a{
   background-image: url("../images/medication.jpg")!important;
 }
 
+.top_cover{
+  background-image: url("../images/medication.jpg")!important;
+  height: 100px;
+}
+
 .bg-primary {
  background-color: #4C191B!important ;
 }
@@ -232,16 +237,16 @@ padding: 0 0 20px 0;
 }
 
 .card.presentation{
-  width: 890px;
+  width: 600px;
   margin: 100px 20px 20px 20px;
 }
 
 .onglet p{
-  width: 803px;
+  width: 530px;
 }
 
 .card.address, .card.price{
-  width: 890px;
+  width: 650px;
   margin: 20px;
 }
 
@@ -250,7 +255,31 @@ display: flex;
 flex-direction: column;
 }
 
+#card_main.card{
+  width: 500px!important;
+}
 
+.portrait{
+  display: flex;
+}
+
+.card_img_top{
+  width: 100px;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.card_title_doctor{
+  flex-position: column;
+  margin-top : 40px;
+}
+
+.card_title_doctor h3{
+  margin: 0px!important;
+  padding-bottom: 3px!important;
+}
 
 
 /*********
