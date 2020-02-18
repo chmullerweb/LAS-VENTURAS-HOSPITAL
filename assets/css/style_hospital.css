@@ -248,7 +248,7 @@ padding: 0 0 20px 0;
 
 .onglet p, .card.address p, .card.price p{
   width: 530px;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .card.address, .card.price{
@@ -323,7 +323,7 @@ flex-direction: column;
   ***************/
 
  .btn_doctor{
-   font-size: 0.8em;
+   font-size: 0.7em;
    background-color: #B3DEC1;
    border-color: #E5FCF5;
    font-weight: bold;
