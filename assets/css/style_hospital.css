@@ -232,6 +232,14 @@ padding: 0 0 20px 0;
   width: 100px;
 }
 
+.card-text.doctor {
+  width: 668px!important;
+}
+
+.card-text.doctor.maps {
+  width: 400px!important;
+}
+
 .card-body.card_benefits{
   width: 245px;
 }
@@ -242,17 +250,18 @@ padding: 0 0 20px 0;
 
 
 .card.presentation{
-  width: 650px;
+  width: 835px;
   margin: 30px 20px 10px 20px;
 }
 
+
 .onglet p, .card.address p, .card.price p{
-  width: 530px;
+  width: 730px;
   font-size: 1em;
 }
 
 .card.address, .card.price{
-  width: 650px;
+  width: 835px;
   margin: 20px;
 }
 
@@ -328,6 +337,35 @@ flex-direction: column;
    border-color: #E5FCF5;
    font-weight: bold;
  }
+
+ .btn_doctor.infos{
+   font-size: 1.2em;
+   background-color: #B3DEC1;
+   border-color: #E5FCF5;
+   font-weight: bold;
+   text-align: center;
+   width: 836px;
+   margin: 0 0 20px 20px;
+ }
+
+ /*********
+  MAPS
+  ***************/
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:270px;
+  width:445px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+}
+
+.card_doctor.address{
+  display: flex;
+}
 
 /*********
  TEMPLATE CARD
