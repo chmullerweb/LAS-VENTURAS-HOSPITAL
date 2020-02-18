@@ -91,13 +91,15 @@
             <p style="font-weight: bold; padding-bottom: 8px;" >Moyens de paiements</p>
             <p>Chèques, espèces et cartes bancaires</p><br/>
             <p style="font-weight: bold; padding-bottom: 8px;">Expertise, actes et symptômes</p>
-            <button type="button" class="btn btn-primary btn_doctor">Echographie</button>
-            <button type="button" class="btn btn-primary btn_doctor">Obstétrique</button>
-            <button type="button" class="btn btn-primary btn_doctor">Infertilité</button>
-            <button type="button" class="btn btn-primary btn_doctor">Pose de stérilet</button>
-            <button type="button" class="btn btn-primary btn_doctor">Insémination artificielle</button>
-            <button type="button" class="btn btn-primary btn_doctor">Don d'ovocytes</button>
-            <button type="button" class="btn btn-primary btn_doctor">Suivi de grossesse</button>
+            <div class="card-text doctor">
+              <button type="button" class="btn btn-primary btn_doctor">Echographie</button>
+              <button type="button" class="btn btn-primary btn_doctor">Obstétrique</button>
+              <button type="button" class="btn btn-primary btn_doctor">Infertilité</button>
+              <button type="button" class="btn btn-primary btn_doctor">Pose de stérilet</button>
+              <button type="button" class="btn btn-primary btn_doctor">Insémination artificielle</button>
+              <button type="button" class="btn btn-primary btn_doctor">Don d'ovocytes</button>
+              <button type="button" class="btn btn-primary btn_doctor">Suivi de grossesse</button>
+            </div>
           </div>
           </div>
         </div>
@@ -107,7 +109,8 @@
         <div class="card address" >
           <div class="card-body address">
             <h3 class="card-title">Carte et informations d'accès</h3>
-            <div class="card-text">
+            <div class="card_doctor address">
+            <div class="card-text doctor maps">
               <p style="font-weight: bold; padding-bottom: 8px;">Cabinet Médical 3C Saint-Antoine</p>
               <p>x Faubourg Saint-Antoine, 75011 PARIS</p><br/>
               <p style="font-weight: bold; padding-bottom: 8px;">Moyens de transport</p>
@@ -121,6 +124,9 @@
               <p>Accès handicapé</p>
               <p>Parking payant</p>
             </div>
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="345" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=hopital%20saint-antoine%20Paris&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -131,7 +137,7 @@
         <div class="card price" >
           <div class="card-body price">
             <h3 class="card-title">Tarifs et Remboursement</h3>
-            <div class="card-text">
+            <div class="card-text doctor">
               <p style="font-weight: bold; padding-bottom: 8px;">Hopital Saint-Antoine</p>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
@@ -143,7 +149,7 @@
         <div class="card presentation" >
           <div class="card-body presentation">
             <h3 class="card-title">Présentation du professionnel de santé</h3>
-            <div class="card-text">
+            <div class="card-text doctor">
               <p>Le docteur Marinne Prune vous accueille au sein de l'Hopital Saint-Antoine Paris 11.<br/>
                 Le docteur assure le suivi complet des grossesses et pratique notamment des échographies obstétricales (directement au cabinet).
                 Elle prend en charge les consultations de gynécologie médicale classiques (contraception, infectiologie, ménopause, colposcopie, etc.)<br/>
