@@ -274,12 +274,43 @@ flex-direction: column;
 .card_title_doctor{
   flex-position: column;
   margin-top : 40px;
+  font-size: 1.2em;
 }
 
 .card_title_doctor h3{
   margin: 0px!important;
   padding-bottom: 3px!important;
 }
+
+/*********
+ NAV DOCTOR CARD
+ ***************/
+
+ .doctor_nav ul{
+   display: flex;
+   height: 80px;
+   font-size: 1.1em;
+   margin-left: 200px;
+ }
+
+ .doctor_nav li{
+   padding-top: 28px;
+ }
+
+ .doctor_nav a{
+      text-underline-offset: 30px;
+      color: black;
+ }
+
+ .doctor_nav a:hover{
+      text-decoration: none;
+      padding-bottom: 30px;
+      border-bottom: 2px solid #fdc400;
+ }
+
+ .doctor_cover{
+   box-shadow: 0 0 4px 0 black;
+ }
 
 
 /*********
