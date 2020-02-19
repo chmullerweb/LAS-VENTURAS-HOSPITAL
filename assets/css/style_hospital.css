@@ -456,3 +456,40 @@ flex-direction: column;
 .list-group-item{
   width: 225px;
 }
+
+
+/********
+   FOOTER
+         *********/
+
+footer{
+  margin-bottom: 25px;
+}
+
+/********
+   COOKIES
+         *********/
+.cookies{
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 0px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cookies p{
+  text-align: center;
+  font-style: italic;
+  color: black;
+  font-size: 0.7em;
+  padding-top: 10px;
+}
+
+.cookies button{
+  width: 120px!important;
+  height: 20px!important;
+  font-size: 0.6em;
+  margin-top: 4px!important;
+  padding-top: 2px!important;
+}
