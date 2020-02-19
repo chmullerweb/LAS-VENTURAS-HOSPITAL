@@ -1,3 +1,6 @@
+https://www.doctolib.fr/gynecologue-obstetricien/levallois-perret/sahar-kaddioui
+https://coolors.co/4c191b-8d99ae-f8f32b-ffffff-000000
+https://bootswatch.com/lux/
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -219,9 +222,11 @@
   </footer>
 
   <section class="cookies container-fluid">
-    <p>J'accepte l'usage de cookies sur ce site</p>
-    <button type="button" class="btn btn-secondary btn_cookies">J'accepte</button>
-
+    <p>Las Venturas Hospital souhaite recueillir vos informations de navigation (cookies)</p>
+    <div class="cookies_btn">
+    <button type="button" onclick="document.querySelector('.cookies').remove()" class="btn btn-success btn_cookies">Accepter</button>
+    <button type="button" onclick="if (confirm('Oh trop dommage ! Vous êtes sûr(e) ?')) {document.querySelector('.cookies').remove()}" class="btn btn-danger btn_cookies">Refuser</button>
+    </div>
   </section>
 
 </body>

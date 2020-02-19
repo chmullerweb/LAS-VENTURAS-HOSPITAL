@@ -482,14 +482,14 @@ footer{
   text-align: center;
   font-style: italic;
   color: black;
-  font-size: 0.7em;
-  padding-top: 10px;
+  font-size: 0.8em;
+  padding-top: 9px;
 }
 
 .cookies button{
   width: 120px!important;
   height: 20px!important;
-  font-size: 0.6em;
+  font-size: 0.7em;
   margin-top: 4px!important;
   padding-top: 2px!important;
 }
