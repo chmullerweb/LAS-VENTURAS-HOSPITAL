@@ -157,6 +157,15 @@ nav a{
   padding: 10px 0px;
 }
 
+/********
+   NAV
+         *********/
+
+.navbar-nav.top-nav{
+  margin-right: 0px!important;
+  padding-left: 145px;
+}
+
 
 /********
    BENEFICES
