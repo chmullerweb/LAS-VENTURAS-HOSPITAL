@@ -12,12 +12,15 @@ https://bootswatch.com/lux/
   <link rel="stylesheet" href="assets/css/style_hospital.css">
 
 
+
+
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
+<!-- JS -->
 
 
   <!-- NAV MENU -->
@@ -224,10 +227,14 @@ https://bootswatch.com/lux/
   <section class="cookies container-fluid">
     <p>Las Venturas Hospital souhaite recueillir vos informations de navigation (cookies)</p>
     <div class="cookies_btn">
-    <button type="button" onclick="document.querySelector('.cookies').remove()" class="btn btn-success btn_cookies">Accepter</button>
-    <button type="button" onclick="if (confirm('Oh trop dommage ! Vous êtes sûr(e) ?')) {document.querySelector('.cookies').remove()}" class="btn btn-danger btn_cookies">Refuser</button>
+    <button type="button" class="btn btn-success btn_cookies accept">Accepter</button>
+    <button type="button" class="btn btn-danger btn_cookies refuse">Refuser</button>
     </div>
   </section>
+
+  <script src="assets/js/cookiesbanner.js"></script>
+
+
 
 </body>
 </html>
