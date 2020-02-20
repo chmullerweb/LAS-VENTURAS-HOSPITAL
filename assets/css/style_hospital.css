@@ -512,11 +512,11 @@ footer{
    CALENDAR
          *********/
 .calendar{
-  position: fixed;
-  top: 143px;
+  position: absolute;
+  top: 134px;
   right: 100px;
   width: 380px;
-  height: 380px;
+  height: 570px;
   display: flex;
   flex-direction: column;
   padding-bottom: 150px;
@@ -525,5 +525,8 @@ footer{
 .doctor_calendar p{
   padding-right: 5px;
   width: 330px;
+}
 
+.calendar img{
+  width: 290px;
 }
