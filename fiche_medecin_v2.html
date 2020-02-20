@@ -16,11 +16,23 @@ https://bootswatch.com/lux/
 
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
+
+  <!-- JS -->
+
+
 </head>
 
 
-<body>
-<!-- JS -->
+<body id="bgcolor">
+  <!-- <script>function changerCouleurDeFond (couleur)
+    {
+    document.getElementById("bgcolor").style.backgroundColor='red';
+    } -->
+
+    function changerCouleur (name, blue)
+    {
+      document.getElementById("name").style.color='blue';
+    }
 
 
   <!-- NAV MENU -->
@@ -60,10 +72,13 @@ https://bootswatch.com/lux/
 
 <main class="doctor_cover">
   <section class="top_cover">
+        <button type="button"  class="btn btn-danger btn_cookies name_button">Changez mon nom</button>
+        <button type="button"  class="btn btn-danger btn_cookies bgcolor_button">Changez le fond de la page</button>
+
     <div class="portrait">
-      <img src="assets/images/marinne_prune_mini.jpg" class="card_img_top" alt="Docteur Marinne Prune Gynécologue">
+      <img src="assets/images/marinne_prune_mini.jpg" class="card_img_top survol" alt="Docteur Marinne Prune Gynécologue">
         <div class="card_title_doctor">
-        <h3 class="card-title">Marinne Prune</h3>
+        <h3 class="card-title" id="name">Marinne Prune</h3>
         <p style="font-weight: bold;">Gynécologue obstétricales</p>
         </div>
     </div>
@@ -87,6 +102,20 @@ https://bootswatch.com/lux/
   <section class="onglet">
 
     <div class"row">
+      <div class="card calendar" >
+        <div class="card-body presentation">
+          <h3 class="card-title" id="calendar">Calendrier de réservation</h3>
+          <div class="card-text doctor_calendar">
+            <p>Le docteur Marinne Prune vous accueille au sein de l'Hopital Saint-Antoine Paris 11.<br/>
+              Le docteur assure le suivi complet des grossesses et pratique notamment des échographies obstétricales (directement au cabinet).
+              Elle prend en charge les consultations de gynécologie médicale classiques (contraception, infectiologie, ménopause, colposcopie, etc.)<br/>
+              Le docteur met un point d'honneur à recevoir chaque patiente pendant au moins 30 minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class"row">
       <div class="card presentation" >
         <div class="card-body presentation" id="about">
           <div class="card-text">
@@ -233,6 +262,8 @@ https://bootswatch.com/lux/
   </section>
 
   <script src="assets/js/cookiesbanner.js"></script>
+
+
 
 
 
