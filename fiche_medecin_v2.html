@@ -1,3 +1,6 @@
+https://www.doctolib.fr/gynecologue-obstetricien/levallois-perret/sahar-kaddioui
+https://coolors.co/4c191b-8d99ae-f8f32b-ffffff-000000
+https://bootswatch.com/lux/
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -9,8 +12,13 @@
   <link rel="stylesheet" href="assets/css/style_hospital.css">
 
 
+
+
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
+
+
+
 </head>
 
 
@@ -29,12 +37,12 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav top-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nos professionnels</a>
+            <a class="nav-link" href="fiche_medecin_v2.html">Nos professionnels</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Prendre RDV</a>
@@ -55,9 +63,9 @@
 <main class="doctor_cover">
   <section class="top_cover">
     <div class="portrait">
-      <img src="assets/images/marinne_prune_mini.jpg" class="card_img_top" alt="Docteur Marinne Prune Gynécologue">
+      <img src="assets/images/marinne_prune_mini.jpg" class="card_img_top survol" alt="Docteur Marinne Prune Gynécologue">
         <div class="card_title_doctor">
-        <h3 class="card-title">Marinne Prune</h3>
+        <h3 class="card-title" id="name">Marinne Prune</h3>
         <p style="font-weight: bold;">Gynécologue obstétricales</p>
         </div>
     </div>
@@ -81,6 +89,18 @@
   <section class="onglet">
 
     <div class"row">
+      <div class="card calendar" >
+        <div class="card-body presentation">
+          <h3 class="card-title" id="calendar">Calendrier de réservation</h3>
+          <div class="card-text doctor_calendar">
+            <p>IN PROGRESS<br/>
+              Laute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class"row">
       <div class="card presentation" >
         <div class="card-body presentation" id="about">
           <div class="card-text">
@@ -106,20 +126,6 @@
         </div>
       </div>
 
-      <div class"row">
-        <div class="card presentation" >
-          <div class="card-body calendar">
-            <div class="card-text">
-              <p style="font-weight: bold; padding-bottom: 8px;">Tarifs et Remboursement</p>
-              <p>Conventionné secteur 2 avec Optam-Co</p>
-              <p>Carte Vitale acceptée</p>
-              <p>Tiers payant : Sécurité sociale</p>
-              <p><a href="#tarifs">Voir les tarifs</a></p><br/>
-              <p style="font-weight: bold; padding-bottom: 8px;" >Moyens de paiements</p>
-              <p>Chèques, espèces et cartes bancaires</p><br/>
-              <p style="font-weight: bold; padding-bottom: 8px;">Expertise, actes et symptômes</p>
-              <div class="container">
-      
       <div class"row">
         <div class="card address" >
           <div class="card-body address">
@@ -200,6 +206,7 @@
 
 
   <footer>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand title" href="index.html">LAS VENTURAS HOSPITAL</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -227,7 +234,23 @@
       </div>
     </nav>
 
+
+
   </footer>
+
+  <section class="cookies container-fluid">
+    <p>Las Venturas Hospital souhaite recueillir vos informations de navigation (cookies)</p>
+    <div class="cookies_btn">
+    <button type="button" class="btn btn-success btn_cookies accept">Accepter</button>
+    <button type="button" class="btn btn-danger btn_cookies refuse">Refuser</button>
+    </div>
+  </section>
+
+  <script src="assets/js/cookiesbanner.js"></script>
+
+
+
+
 
 </body>
 </html>

@@ -157,6 +157,15 @@ nav a{
   padding: 10px 0px;
 }
 
+/********
+   NAV
+         *********/
+
+.navbar-nav.top-nav{
+  margin-right: 0px!important;
+  padding-left: 145px;
+}
+
 
 /********
    BENEFICES
@@ -176,6 +185,10 @@ nav a{
   margin-top: 50px;
   border-top: 1.5px yellow dotted;
 }
+
+/********
+   TEAM
+         *********/
 
 
 
@@ -455,4 +468,62 @@ flex-direction: column;
 
 .list-group-item{
   width: 225px;
+}
+
+
+/********
+   FOOTER
+         *********/
+
+footer{
+  margin-bottom: 25px;
+}
+
+/********
+   COOKIES
+         *********/
+.cookies{
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 0px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cookies p{
+  text-align: center;
+  font-style: italic;
+  color: black;
+  font-size: 0.8em;
+  padding-top: 9px;
+}
+
+.cookies button{
+  width: 120px!important;
+  height: 20px!important;
+  font-size: 0.7em;
+  margin-top: 4px!important;
+  padding-top: 2px!important;
+}
+
+
+/********
+   CALENDAR
+         *********/
+.calendar{
+  position: fixed;
+  top: 143px;
+  right: 100px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+
+.doctor_calendar p{
+  padding-right: 5px;
+  width: 330px;
+
 }
