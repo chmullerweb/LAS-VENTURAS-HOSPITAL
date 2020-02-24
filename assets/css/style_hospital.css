@@ -276,6 +276,7 @@ padding: 0 0 20px 0;
 .onglet p, .card.address p, .card.price p{
   width: 730px;
   font-size: 1em;
+  padding-top: 5px;
 }
 
 .card.address, .card.price{
@@ -530,7 +531,7 @@ footer{
   top: 134px;
   right: 46px;
   width: 461px;
-  height: 570px;
+  height: 585px;
   display: flex;
   flex-direction: column;
   padding-bottom: 150px;
