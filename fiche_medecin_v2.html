@@ -88,17 +88,34 @@ https://bootswatch.com/lux/
 
   <section class="onglet">
 
-    <div class"row">
-      <div class="card calendar" >
-        <div class="card-body presentation">
-          <h3 class="card-title" id="calendar">Calendrier de réservation</h3>
-          <div class="card-text doctor_calendar">
-            <p>IN PROGRESS</p><br/>
+    <div class="calendar calendar_space">
+      <div class="calendar_box">
+        <div class="calendar_title bold" >
+          <h3>Prenez rendez-vous en ligne</h3>
+          <span>Renseignez les informations suivantes :</span>
+        </div>
+        <div class="calendar_address">
+          <h4>Lieu de consultation</h4>
+          <span>Cabinet Médical 3C Saint-Antoine</span>
+          <span>184 rue Faubourg Saint-Antoine, 75012 PARIS</span>
+        </div>
+        <div class="calendar_selector">
+          <h4>Catégorie de motif</h4>
+          <select class="booking_motive_categories">
+            <option value="">Choissisez une catégorie</option>
+            <option value="echographie">Echographie</option>
+            <option value="contraception">Contraception</option>
+            <option value="grossesse">Grossesse</option>
+            <option value="gynecologie">Gynécologie</option>
+          </select>
+        </div>
+        <div class="calendar_image">
             <img src="assets/images/calendar_picture.png" alt="">
-            </div>
-          </div>
         </div>
       </div>
+    </div>
+
+
 
       <div class"row">
       <div class="card presentation" >
@@ -133,7 +150,7 @@ https://bootswatch.com/lux/
             <div class="card_doctor address">
             <div class="card-text doctor maps">
               <p style="font-weight: bold; padding-bottom: 8px;">Cabinet Médical 3C Saint-Antoine</p>
-              <p>x Faubourg Saint-Antoine, 75011 PARIS</p><br/>
+              <p>184 rue Faubourg Saint-Antoine, 75012 PARIS</p><br/>
               <p style="font-weight: bold; padding-bottom: 8px;">Moyens de transport</p>
               <p>Métro - ... (ligne 8)</p>
               <p>Métro - Reuilly-Diderot (ligne 1)</p>
@@ -238,15 +255,15 @@ https://bootswatch.com/lux/
 
   </footer>
 
-  <section class="cookies container-fluid">
-    <p>Las Venturas Hospital souhaite recueillir vos informations de navigation (cookies)</p>
-    <div class="cookies_btn">
-    <button type="button" class="btn btn-success btn_cookies accept">Accepter</button>
-    <button type="button" class="btn btn-danger btn_cookies refuse">Refuser</button>
-    </div>
-  </section>
+    <section class="cookies container-fluid">
+      <p>Las Venturas Hospital souhaite recueillir vos informations de navigation (cookies)</p>
+      <div class="cookies_btn">
+      <button type="button" class="btn btn-success btn_cookies accept">Accepter</button>
+      <button type="button" class="btn btn-danger btn_cookies refuse">Refuser</button>
+      </div>
+    </section>
 
-  <script src="assets/js/cookies-banner.js"></script>
+    <script src="assets/js/cookies-banner.js"></script>
 
 
 
