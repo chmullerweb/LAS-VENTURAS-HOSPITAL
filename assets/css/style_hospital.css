@@ -55,7 +55,12 @@
 """"""""""""""""""""""""""""""GENERAL"""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
 
-p, li, span, label, .doctor_card a {
+i{
+  font-size: 1em;
+  padding-right: 10px;
+}
+
+p, li, span, label, h4, option, select, .doctor_card a {
 font-family: 'Cutive Mono', monospace;
 }
 
@@ -267,10 +272,16 @@ padding: 0 0 20px 0;
   margin: 30px 20px 10px 20px;
 }
 
+.presentation_insupply{
+  line-height: 30px;
+  padding-top: 20px;
+}
+
 
 .onglet p, .card.address p, .card.price p{
   width: 730px;
   font-size: 1em;
+  padding-top: 5px;
 }
 
 .card.address, .card.price{
@@ -309,6 +320,11 @@ flex-direction: column;
   margin: 0px!important;
   padding-bottom: 3px!important;
 }
+
+.card-title{
+  margin-bottom: 0!important;
+}
+
 
 /*********
  NAV DOCTOR CARD
@@ -511,19 +527,74 @@ footer{
 /********
    CALENDAR
          *********/
+
+.bold{
+  font-weight: bold;
+}
 .calendar{
-  position: fixed;
-  top: 143px;
-  right: 100px;
-  width: 380px;
-  height: 380px;
+  position: absolute;
+  top: 134px;
+  right: 46px;
+  width: 461px;
+  height: 590px;
   display: flex;
   flex-direction: column;
   padding-bottom: 150px;
+  background-color:white;
+  border-radius: 4px;
+  border: 2px #6ea9d5 solid;
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);}
+
+.calendar_title{
+width: 100%;
+background-color: #6ea9d5;
+color: white;
+padding: 10px;
+box-shadow: 0 0 3px 0 black;
 }
 
-.doctor_calendar p{
-  padding-right: 5px;
-  width: 330px;
+.calendar_address, .calendar_selector{
+  padding: 30px 10px 20px 30px;
+  border-bottom: 1px #eef2f6 solid;
+}
+
+.calendar_button_1{
+  position: absolute;
+  top: 101px;
+  right: 447px;
+  width: 30px;
+}
+
+.calendar_button_2{
+  position: absolute;
+  top: 215px;
+  right: 447px;
+  width: 30px;
+}
+
+.calendar_button_3{
+  position: absolute;
+  top: 327px;
+  right: 447px;
+  width: 30px;
+}
+
+.calendar_image{
+  text-align: center;
+}
+.calendar_image img{
+  width: 329px;
+}
+
+/*************
+     TARIFS
+        *********/
+
+.pricelist{
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+ border-bottom: 1.5px #efefe5 dotted ;
+
 
 }

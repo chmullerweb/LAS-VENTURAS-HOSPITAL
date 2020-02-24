@@ -1,6 +1,3 @@
-https://www.doctolib.fr/gynecologue-obstetricien/levallois-perret/sahar-kaddioui
-https://coolors.co/4c191b-8d99ae-f8f32b-ffffff-000000
-https://bootswatch.com/lux/
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -11,12 +8,13 @@ https://bootswatch.com/lux/
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style_hospital.css">
 
-
-
+  <!--ICONES -->
+  <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
-
 
 
 </head>
@@ -88,31 +86,57 @@ https://bootswatch.com/lux/
 
   <section class="onglet">
 
-    <div class"row">
-      <div class="card calendar" >
-        <div class="card-body presentation">
-          <h3 class="card-title" id="calendar">Calendrier de réservation</h3>
-          <div class="card-text doctor_calendar">
-            <p>IN PROGRESS<br/>
-              Laute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
+    <div class="calendar calendar_space">
+      <div class="calendar_box">
+        <div class="calendar_title bold" >
+          <h3>Prenez rendez-vous en ligne</h3>
+          <span>Renseignez les informations suivantes :</span>
         </div>
+        <div class="calendar_address">
+          <h4>Lieu de consultation</h4>
+          <span>Cabinet Médical 3C Saint-Antoine</span><br/>
+          <span>184 Rue du Faubourg Saint-Antoine, 75012 PARIS</span>
+          <img class="calendar_button_1" src="assets/images/number-1.png" alt="">
+        </div>
+        <div class="calendar_selector">
+          <h4>Catégorie de motif</h4>
+          <img class="calendar_button_2" src="assets/images/number-2.png" alt="">
+          <select class="booking_motive_categories">
+            <option value="">Choissisez une catégorie</option>
+            <option value="echographie">Echographie</option>
+            <option value="contraception">Contraception</option>
+            <option value="grossesse">Grossesse</option>
+            <option value="gynecologie">Gynécologie</option>
+          </select>
+        </div>
+        <div class="calendar_image">
+          <img src="assets/images/calendar_picture.png" alt="" title="In Progess JS">
+        </div>
+        <img class="calendar_button_3" src="assets/images/number-3.png" alt="">
       </div>
+    </div>
+
+
 
       <div class"row">
       <div class="card presentation" >
         <div class="card-body presentation" id="about">
           <div class="card-text">
-            <p style="font-weight: bold; padding-bottom: 8px;">Tarifs et Remboursement</p>
-            <p>Conventionné secteur 2 avec Optam-Co</p>
-            <p>Carte Vitale acceptée</p>
-            <p>Tiers payant : Sécurité sociale</p>
-            <p><a href="#tarifs">Voir les tarifs</a></p><br/>
-            <p style="font-weight: bold; padding-bottom: 8px;" >Moyens de paiements</p>
-            <p>Chèques, espèces et cartes bancaires</p><br/>
-            <p style="font-weight: bold; padding-bottom: 8px;">Expertise, actes et symptômes</p>
+            <div class="flex">
+              <div style="width:70%;">
+              <p style="font-weight: bold; padding-bottom: 8px;"><i class="fas fa-euro-sign"></i>Tarifs et Remboursement <i class="fas fa-question-circle" title="In Progress JS"></i></p>
+              <p>Conventionné secteur 2 avec Optam-Co</p>
+              <p>Carte Vitale acceptée</p>
+              <p>Tiers payant : Sécurité sociale</p>
+              <p><a href="#tarifs">Voir les tarifs</a></p><br/>
+              </div>
+              <div style="width:70%">
+              <p style="font-weight: bold; padding-bottom: 8px;" ><i class="far fa-credit-card"></i>Moyens de paiements</p>
+              <span>Chèques, espèces et cartes bancaires</span><br/>
+              </div>
+            </div>
             <div class="card-text doctor">
+              <p style="font-weight: bold; padding-bottom: 8px;"><i class="fas fa-microscope"></i>Expertise, actes et symptômes</p>
               <button type="button" class="btn btn-primary btn_doctor">Echographie</button>
               <button type="button" class="btn btn-primary btn_doctor">Obstétrique</button>
               <button type="button" class="btn btn-primary btn_doctor">Infertilité</button>
@@ -129,23 +153,24 @@ https://bootswatch.com/lux/
       <div class"row">
         <div class="card address" >
           <div class="card-body address">
-            <h3 class="card-title" id="location">Carte et informations d'accès</h3>
+            <h3 class="card-title" id="location"><i class="fas fa-map-marker-alt"></i>Carte et informations d'accès</h3>
             <div class="card_doctor address">
             <div class="card-text doctor maps">
               <p style="font-weight: bold; padding-bottom: 8px;">Cabinet Médical 3C Saint-Antoine</p>
-              <p>x Faubourg Saint-Antoine, 75011 PARIS</p><br/>
+              <p>184 Rue du Faubourg Saint-Antoine,<br/> 75012 PARIS</p><br/>
               <p style="font-weight: bold; padding-bottom: 8px;">Moyens de transport</p>
-              <p>Métro - ... (ligne 8)</p>
+              <p>Métro - Faidherbe - Chaligny (ligne 8)</p>
               <p>Métro - Reuilly-Diderot (ligne 1)</p>
               <p>Bus - Faubourg Saint-Antoine (71)</p><br/>
               <p style="font-weight: bold; padding-bottom: 8px;">Parking public</p>
-              <p>...</p>
+              <p>Indigo Paris Faubourg Saint-Antoine</p>
+              <p>82 bis Avenue Ledru-Rollin, 75012 Paris</p><br/>
               <p style="font-weight: bold; padding-bottom: 8px;">Informatiques pratiques</p>
               <p>Rez-de-chaussée</p>
               <p>Accès handicapé</p>
               <p>Parking payant</p>
             </div>
-              <div class="mapouter"><div class="gmap_canvas"><iframe width="345" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=hopital%20saint-antoine%20Paris&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="345" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hopital%20saint-antoine%20Paris&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
           </div>
           </div>
@@ -155,24 +180,48 @@ https://bootswatch.com/lux/
       <div class"row">
         <div class="card presentation" >
           <div class="card-body presentation">
-            <h3 class="card-title" id="presentation">Présentation du professionnel de santé</h3>
+            <h3 class="card-title" id="presentation"><i class="fas fa-align-left"></i>Présentation du professionnel de santé</h3>
             <div class="card-text doctor">
-              <p>Le docteur Marinne Prune vous accueille au sein de l'Hopital Saint-Antoine Paris 11.<br/>
+              <p>Le docteur Marinne Prune vous accueille au sein de l'Hopital Saint-Antoine Paris 12.<br/>
                 Le docteur assure le suivi complet des grossesses et pratique notamment des échographies obstétricales (directement au cabinet).
                 Elle prend en charge les consultations de gynécologie médicale classiques (contraception, infectiologie, ménopause, colposcopie, etc.)<br/>
                 Le docteur met un point d'honneur à recevoir chaque patiente pendant au moins 30 minutes.</p>
+              <div class="presentation_insupply">
+                <h3><i class="fas fa-graduation-cap"></i>FORMATION</h3>
+                <p>DU Exploration et prise en charge pratique de l'infertilité</p>
+                <p>DIU Médecine foetale</p>
+                <p>D.I.U. Échographie gynécologique et obstétricale</p>
+                <p>D.U. de Colposcopie et Pathologie Cervico-Vaginale</p>
+                <p>D.E.S. Gynécologie obstétrique</p>
+                <p>DIU Pathologie foetale et placentaire</p>
+              </div>
+              <div class="presentation_insupply">
+                <h3><i class="fas fa-microscope"></i>EXPERIENCES</h3>
+                <p>Le Dr Prune est Ancienne Assistante des Hôpitaux de Paris et Ancien Praticien Hospitalier.</p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
         <div class"row">
           <div class="card presentation" >
             <div class="card-body presentation">
-              <h3 class="card-title" id="opening_hours">Horaires et Contact</h3>
+              <h3 class="card-title" id="opening_hours"><i class="far fa-clock"></i>Horaires et Contact</h3>
               <div class="card-text doctor">
-                <p style="font-weight: bold; padding-bottom: 8px;">Ouverture du secrétariat</p>
-                <p>Lundi à Vendredi : 09h00 - 17h00</p>
+                <div class="flex">
+                  <div style="width: 60%">
+                    <p style="font-weight: bold; padding-bottom: 8px; padding-top : 15px;">Ouverture du secrétariat</p>
+                    <span>Lundi à Vendredi : 09h00 - 17h00</span>
+                  </div>
+                  <div>
+                    <p style="font-weight: bold; padding-bottom: 8px; padding-top: 15px">Contact du secrétariat</p>
+                    <span>Numéro de téléphone : 01 42 27 42 19</span><br/>
+                    <span>Numéro de fax : 01 83 71 83 19</span>
+                  </div>
+                </div>
+                <p style="font-weight: bold; padding-bottom: 8px; padding-top: 15px;">Contact d'urgence</p>
+                <span>En cas d'urgence, contactez le 15 (Samu)</span>
 
 
                 </div>
@@ -183,10 +232,29 @@ https://bootswatch.com/lux/
       <div class"row">
         <div class="card price" >
           <div class="card-body price">
-            <h3 class="card-title" id="pricing">Tarifs et Remboursement</h3>
+            <h3 class="card-title" id="pricing"><i class="fas fa-euro-sign"></i>Tarifs</h3>
             <div class="card-text doctor">
-              <p style="font-weight: bold; padding-bottom: 8px;">Hopital Saint-Antoine</p>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Consultation vidéo</h4>
+              <span tyle="font-weight : bold">30 à 50€</span>
+              </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Consultation</h4>
+              <span>80€</span>
+              </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Echographie obstétricale</h4>
+              <span>110 à 200€</span>
+              </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Echographie pelvienne</h4>
+              <span>110 à 150€</span>
+              </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Pose de stérilet</h4>
+              <span>110€</span>
+              </div>
+              <p>Ces honoraires vous sont communiqués à titre indicatif par le praticien. Ils peuvent varier selon le type de soins finalement réalisés en cabinet, le nombre de consultations et les actes additionnels nécessaires. En cas de dépassement des tarifs, le praticien doit en avertir préalablement le patient.</p>
             </div>
           </div>
         </div>
@@ -194,19 +262,11 @@ https://bootswatch.com/lux/
 
       <button type="button" class="btn btn-primary btn_doctor infos">Informations légales</button>
 
-
     </section>
-
 
 </main>
 
-
-
-
-
-
   <footer>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand title" href="index.html">LAS VENTURAS HOSPITAL</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -234,8 +294,6 @@ https://bootswatch.com/lux/
       </div>
     </nav>
 
-
-
   </footer>
 
   <section class="cookies container-fluid">
@@ -246,10 +304,7 @@ https://bootswatch.com/lux/
     </div>
   </section>
 
-  <script src="assets/js/cookiesbanner.js"></script>
-
-
-
+  <script src="assets/js/cookies-banner.js"></script>
 
 
 </body>
