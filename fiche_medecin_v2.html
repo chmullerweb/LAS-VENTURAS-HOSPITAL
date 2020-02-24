@@ -11,12 +11,13 @@ https://bootswatch.com/lux/
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style_hospital.css">
 
-
-
+  <!--ICONES -->
+  <script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet">
-
 
 
 </head>
@@ -126,19 +127,19 @@ https://bootswatch.com/lux/
           <div class="card-text">
             <div class="flex">
               <div style="width:70%;">
-              <p style="font-weight: bold; padding-bottom: 8px;">Tarifs et Remboursement</p>
+              <p style="font-weight: bold; padding-bottom: 8px;"><i class="fas fa-euro-sign"></i>Tarifs et Remboursement <i class="fas fa-question-circle"></i></p>
               <p>Conventionné secteur 2 avec Optam-Co</p>
               <p>Carte Vitale acceptée</p>
               <p>Tiers payant : Sécurité sociale</p>
               <p><a href="#tarifs">Voir les tarifs</a></p><br/>
               </div>
-              <div>
-              <p style="font-weight: bold; padding-bottom: 8px;" >Moyens de paiements</p>
-              <p>Chèques, espèces et cartes bancaires</p><br/>
+              <div style="width:70%">
+              <p style="font-weight: bold; padding-bottom: 8px;" ><i class="far fa-credit-card"></i>Moyens de paiements</p>
+              <span>Chèques, espèces et cartes bancaires</span><br/>
               </div>
             </div>
             <div class="card-text doctor">
-              <p style="font-weight: bold; padding-bottom: 8px;">Expertise, actes et symptômes</p>
+              <p style="font-weight: bold; padding-bottom: 8px;"><i class="fas fa-microscope"></i>Expertise, actes et symptômes</p>
               <button type="button" class="btn btn-primary btn_doctor">Echographie</button>
               <button type="button" class="btn btn-primary btn_doctor">Obstétrique</button>
               <button type="button" class="btn btn-primary btn_doctor">Infertilité</button>
@@ -152,10 +153,10 @@ https://bootswatch.com/lux/
         </div>
       </div>
 
-      <div class="row">
+      <div class"row">
         <div class="card address" >
           <div class="card-body address">
-            <h3 class="card-title" id="location">Carte et informations d'accès</h3>
+            <h3 class="card-title" id="location"><i class="fas fa-map-marker-alt"></i>Carte et informations d'accès</h3>
             <div class="card_doctor address">
             <div class="card-text doctor maps">
               <p style="font-weight: bold; padding-bottom: 8px;">Cabinet Médical 3C Saint-Antoine</p>
@@ -179,17 +180,17 @@ https://bootswatch.com/lux/
         </div>
       </div>
 
-      <div class="row">
+      <div class"row">
         <div class="card presentation" >
           <div class="card-body presentation">
-            <h3 class="card-title" id="presentation">Présentation du professionnel de santé</h3>
+            <h3 class="card-title" id="presentation"><i class="fas fa-align-left"></i>Présentation du professionnel de santé</h3>
             <div class="card-text doctor">
               <p>Le docteur Marinne Prune vous accueille au sein de l'Hopital Saint-Antoine Paris 12.<br/>
                 Le docteur assure le suivi complet des grossesses et pratique notamment des échographies obstétricales (directement au cabinet).
                 Elle prend en charge les consultations de gynécologie médicale classiques (contraception, infectiologie, ménopause, colposcopie, etc.)<br/>
                 Le docteur met un point d'honneur à recevoir chaque patiente pendant au moins 30 minutes.</p>
               <div class="presentation_insupply">
-                <h3>FORMATION</h3>
+                <h3><i class="fas fa-graduation-cap"></i>FORMATION</h3>
                 <p>DU Exploration et prise en charge pratique de l'infertilité</p>
                 <p>DIU Médecine foetale</p>
                 <p>D.I.U. Échographie gynécologique et obstétricale</p>
@@ -198,7 +199,7 @@ https://bootswatch.com/lux/
                 <p>DIU Pathologie foetale et placentaire</p>
               </div>
               <div class="presentation_insupply">
-                <h3>EXPERIENCES</h3>
+                <h3><i class="fas fa-microscope"></i>EXPERIENCES</h3>
                 <p>Le Dr Prune est Ancienne Assistante des Hôpitaux de Paris et Ancien Praticien Hospitalier.</p>
               </div>
             </div>
@@ -206,10 +207,10 @@ https://bootswatch.com/lux/
         </div>
       </div>
 
-        <div class="row">
+        <div class"row">
           <div class="card presentation" >
             <div class="card-body presentation">
-              <h3 class="card-title" id="opening_hours">Horaires et Contact</h3>
+              <h3 class="card-title" id="opening_hours"><i class="far fa-clock"></i>Horaires et Contact</h3>
               <div class="card-text doctor">
                 <div class="flex">
                   <div style="width: 60%">
@@ -231,15 +232,32 @@ https://bootswatch.com/lux/
             </div>
           </div>
 
-      <div class="row">
+      <div class"row">
         <div class="card price" >
           <div class="card-body price">
-            <h3 class="card-title" id="pricing">Tarifs</h3>
+            <h3 class="card-title" id="pricing"><i class="fas fa-euro-sign"></i>Tarifs</h3>
             <div class="card-text doctor">
               <div class="pricelist">
               <h4 style="padding-bottom: 8px;">Consultation vidéo</h4>
-              <span>30 à 50€</span>
+              <span tyle="font-weight : bold">30 à 50€</span>
               </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Consultation</h4>
+              <span>80€</span>
+              </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Echographie obstétricale</h4>
+              <span>110 à 200€</span>
+              </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Echographie pelvienne</h4>
+              <span>110 à 150€</span>
+              </div>
+              <div class="pricelist">
+              <h4 style="padding-bottom: 8px;">Pose de stérilet</h4>
+              <span>110€</span>
+              </div>
+              <p>Ces honoraires vous sont communiqués à titre indicatif par le praticien. Ils peuvent varier selon le type de soins finalement réalisés en cabinet, le nombre de consultations et les actes additionnels nécessaires. En cas de dépassement des tarifs, le praticien doit en avertir préalablement le patient.</p>
             </div>
           </div>
         </div>
